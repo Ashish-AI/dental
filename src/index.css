@@ -265,3 +265,40 @@ i{
 .main-footer .developer{
   flex: 1;
 }
+
+.footer-container{
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background:#282846;
+  color: white;
+  margin-top: 30px;
+  font-size: 20px;
+}
+.footer-container .logo{
+  flex:1;
+  font-size: 30px;
+}
+.footer-container .logo i{
+  padding: 0 10px;
+}
+
+.footer-container .copy{
+  flex:1;
+  cursor: pointer;
+}
+
+.footer-container .developer{
+  flex:1;
+}
+
+.class1{
+  font-size: 30px;
+  color: white;
+  padding-left: 5px;
+}
+
+
