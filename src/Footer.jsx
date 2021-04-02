@@ -5,51 +5,35 @@ import {Link} from "react-router-dom";
 const Footer=()=>{
     return (
         <>
-<footer className="page-footer font-small special-color-dark pt-4">
+            import React from "react";
+import {Link} from "react-router-dom";
 
-  <div className="container">
 
-    <ul className="list-unstyled list-inline text-center">
-      <li className="list-inline-item">
-        <Link className="btn-floating btn-fb mx-1">
-          <i className="fab fa-facebook-f"> </i>
-        </Link>
-      </li>
-      <li className="list-inline-item">
-        <Link className="btn-floating btn-tw mx-1">
-          <i className="fab fa-twitter"> </i>
-        </Link>
-      </li>
-      <li className="list-inline-item">
-        <Link className="btn-floating btn-gplus mx-1">
-          <i className="fab fa-google-plus-g"> </i>
-        </Link>
-      </li>
-      <li className="list-inline-item">
-        <Link className="btn-floating btn-li mx-1">
-          <i className="fab fa-linkedin-in"> </i>
-        </Link>
-      </li>
-      <li className="list-inline-item">
-        <Link className="btn-floating btn-dribbble mx-1">
-          <i className="fab fa-dribbble"> </i>
-        </Link>
-      </li>
-    </ul>
+const Footer=()=>{
+    return (
+        <>
+          <footer className="footer-container">
+              <div className="logo">
+              <i class="fab fa-google-plus-square"></i>
+              <i class="fab fa-linkedin"></i>
+              <i class="fab fa-twitter-square"></i>
+              <i class="fab fa-instagram-square"></i>
 
-  </div>
+              </div>
+              <div className="copy">
+                  <p>&copy; lifecarehospital.com</p>
+              </div>
+              <div className="developer">
+                Developer: <Link href="https://www.linkedin.com/in/ashish-chaubey-934b1b190/"><i className="fab  class1 fa-linkedin"></i></Link>
+              </div>
 
-  <div className="main-footer">
+          </footer>
 
-  <div className="footer-copyright text-center py-3">© 2020 Copyright:
-    <Link href="#"> lifecarehospital.com</Link>
-  </div>
-  <div className="developer  py-3 text-center">
-        Developer: <Link href="#">  </Link>
-  </div>
-  </div>
+        </>
+    )
+}
 
-</footer>
+export default Footer;
 
         </>
     )
