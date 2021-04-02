@@ -8,6 +8,7 @@ import Portfolio from "./Portfolio.jsx";
 import Navbar from "./Navbar.jsx";
 import Tips from "./Tips.jsx";
 import Hero from "./Hero.jsx";
+import Footer from "./Footer.jsx";
 
 
 const Home=()=>{
@@ -21,6 +22,7 @@ const Home=()=>{
             <Tips/>
             <Services/>
             <Appointment/>
+            <Footer/>
 
             </>
 
